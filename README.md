@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Airport Runway Detection System
 
 This project detects foreign objects and hazardous materials on airport runways using YOLOv8 and Flask.
@@ -20,3 +21,7 @@ This project detects foreign objects and hazardous materials on airport runways 
 ## Future Improvements
 - Implement email/SMS alerts for hazardous materials.
 - Add support for IP cameras.
+=======
+# FOD-Bird-Detection
+A deep learning-based object detection system for identifying foreign object debris (FOD) and birds on airport runways using YOLOv8.
+>>>>>>> 3d4b74a9c31cc13645fd9b7225e8e74343d74afd
