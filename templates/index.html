@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Airport Runway Detection System</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Live Airport Runway Object Detection</h1>
+
+    <div id="video-container">
+        <img src="{{ url_for('video') }}" width="720" height="480">
+    </div>
+
+    <div id="alert-box"></div>
+
+    <div id="footer">
+        Developed with ❤️ using Flask and YOLOv8
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
